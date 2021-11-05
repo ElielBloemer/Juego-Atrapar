@@ -1,0 +1,27 @@
+import wollok.game.*
+import hijitus.*
+import juegoHijitus.*
+import objetoParaLasCanasta.*
+
+program KataFrutaGame {
+
+	game.title("Atrapa Hijitus!")
+	game.height(10)
+	game.width(19)
+	
+	configuracion.darInicio()
+	game.start()
+	
+}
+
+
+// cada objeto NO atrapado RESTA VIDA
+// MIRTA LEGRAND saca 3 VIDAS,cuando pase No RESTA VIDA(musica) 
+// CHINA te quita 1 VIDA,cuando pase No RESTA VIDA
+// KIKO completa vidas a messi y DICE que completo las vidas
+// cada objeto atrapado sumas una cantidad X de puntos, depaul=100,
+// antonela=300(musica),china=0(musica chan)rickfort=500(musica), corta luz(pendiente ver roll royce),kiko=200(musica)
+// los niveles se manejan easy= 1000, medium = 2000, hard = 3000
+// mirta,kiko,antonela,depaul,rickforte,china  
+
+
